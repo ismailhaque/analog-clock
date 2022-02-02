@@ -32,7 +32,7 @@
 
 .s {
     width: 50px;
-    height: 350px;
+    height: 360px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
 
 .m {
     width: 50px;
-    height: 320px;
+    height: 330px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@
 }
 .h {
     width: 50px;
-    height: 275px;
+    height: 288px;
     position: absolute;
     display: flex;
     justify-content: center;

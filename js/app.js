@@ -11,7 +11,7 @@ setInterval(() => {
     let current_hour = time.getHours();
     sec.style.transform = `rotate(${katakuta(60, current_sec)}deg)`
     min.style.transform = `rotate(${katakuta(60, current_min)}deg)`
-    hour.style.transform = `rotate(${katakuta(12, current_hour)}deg)`
+    hour.style.transform = `rotate(${ katakuta(12, current_hour)}deg)`
 
 
 }, 1000);
