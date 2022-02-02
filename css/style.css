@@ -3,18 +3,91 @@
     padding: 0;
 }
 
-.box {
+.clock {
     margin: 200px auto;
-}
-#counter {
+    width: 500px;
+    height: 500px;
+    background-image: url(../image/32-327114_free-icons-png-clock-face-template.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 115% 115%;
+    border-radius: 50%;
+    border: 15px solid black;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
-#counter p {
-    flex-basis: 20%;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    color: black;
+
+.clock::before {
+    content: '';
+
+    width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    border-radius: 50%;
+
+}
+
+.s {
+    width: 50px;
+    height: 350px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform: rotate(0deg);
+}
+
+.s::before {
+    content: '';
+
+    width: 20px;
+    height: 200px;
+    background-image: url(../image/s.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+}
+
+.m {
+    width: 50px;
+    height: 320px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform: rotate(10deg);
+}
+
+.m::before {
+    content: '';
+
+    width: 20px;
+    height: 180px;
+    background-image: url(../image/m.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+}
+.h {
+    width: 50px;
+    height: 275px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transform: rotate(30deg);
+}
+
+.h::before {
+    content: '';
+
+    width: 20px;
+    height: 160px;
+    background-image: url(../image/h\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
 }
